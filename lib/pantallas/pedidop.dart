@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../clases/pedido.dart';
+import 'CartItems.dart';
 import 'navigationDrawer.dart';
 // import 'package:flutter_application_2/classes/ordenCompra.dart';
 // import 'package:flutter_application_2/classes/pedidos.dart';
@@ -62,7 +63,7 @@ class _MiPedidoState extends State<MiPedidos> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          children: [_list()],
+          children: [CartItem()],
           // children: <Widget>[_form(), _list()],
         ),
       ),
